@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<html>
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul {
+	list-style: none;
+}
+html{
+	height:100%;
+	background: url(https://i.redd.it/5rqg8vaw6v341.jpg) no-repeat center center fixed,
+	radial-gradient(#444,#111);	
+	background-blend-mode: multiply;
+	background-size: cover;
+	overflow:hidden;
+	font-family: 'Nunito Sans', sans-serif;
+	
+}
+
+header{
+	text-align:center;
+	color: white;
+	width:35%;
+	height:auto;
+	margin:1em auto;
+	padding:1rem;
+	font-size:5rem;
+	font-weight:900;
+}
+
+.album{
+	background-color: transparent;
+	width: 256px;
+	height: 256px;
+	perspective: 1000px; 
+}
+
+.album-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.album:hover .album-inner {
+	transform: rotateY(180deg);
+}
+
+.album-front, .album-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+.album-back {
+	background-image: linear-gradient(#5F477B,#FE88A9);
+	color: black;
+	transform: rotateY(180deg);
+}
+
+h2{
+	margin-top: 1.25em;
+	margin-bottom:4em;
+	font-size:1.3rem;
+	font-weight: 900;
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info{
+	text-align:center;
+	background: rgba(204, 204, 204, 0.6);
+	width:30%;
+	height:12em;
+	margin:1em auto;
+	padding:1rem;
+	overflow:auto;
+	position: absolute;
+	left: 0;  right: 0;
+	border: solid white 2px;
+	scroll-behavior:smooth;
+	
+}
+.info::-webkit-scrollbar {
+  display: none;
+}
+
+.point{
+	height:150px;
+	width:150px;
+	position:relative;
+	left:66%;
+}
+	
+.links{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	width: 100%;
+	background-image: linear-gradient(to right, rgba(254,136,169,0)75%, rgba(254,136,169,1));
+	color: white;
+	text-align: right;
+	
+}
+
+a{
+	
+	margin-right:5em;
+	text-decoration:none;
+	color:white;
+	font-size:1.2rem;
+}
+
+.age{
+	font-size:1.2rem;
+}
+.bold{
+	font-weight:900;
+}
+
+h3{
+	font-size:1.5rem;
+	font-weight:900;
+	margin-top:1em;
+	margin-bottom: .5em;
+}
+
+li{
+	margin-bottom:10px;
+}
+
+.quote{
+	margin:5em;
+	font-weight: bold;
+	font-style: italic;
+}
+</style>
+
+
+<header>
+	<h1>Juice Wrld</h1>
+</header>
+
+<body>
+
+<div class="intro">
+	<div class="album">
+		<div class="album-inner">
+			<div class="album-front">
+				<img src="https://m.media-amazon.com/images/I/51z0H1o9tOL._AA256_.jpg">
+			</div>
+			<div class="album-back">
+				<h2> Jarad Anthony Higgins </h2>
+				<p class="age"> <span class="bold">Born:</span> December 2, 1998 </p>
+				<p class="age"><span class="bold">Died:</span> December 8, 2019</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="info">
+	<h3>His Life</h3>
+	<ul>
+		<li>Higgins began to develop as an artist in his first year of high school. His first track, "Forever", was released on SoundCloud in 2015 under the name JuicetheKidd. Higgins recorded most of his first tracks on a cellphone, uploading them to SoundCloud in his sophomore year. He changed his name from JuicetheKidd, a name inspired by his affection for rapper Tupac Shakur and his part in the film Juice, to Juice Wrld because it "represents taking over the world".</li>
+		<li>In December 2017, Higgins released the three-song EP Nothings Different. Many hip-hop blogs such as Lyrical Lemonade featured it, which helped Higgins's track "All Girls Are the Same" gain popularity. In February 2018, a music video directed by Cole Bennett was released. Following the video's release, Interscope Records signed Higgins for $3 million and a remix featuring Lil Yachty was previewed. "All Girls Are the Same" was critically praised, receiving a Best New Music designation from Pitchfork. It was released as a single in April. "All Girls Are the Same" and "Lucid Dreams" were Higgins's first entries on a Billboard chart, debuting at number 92 and 74 respectively on the Hot 100 chart.</li>
+		<li>On December 8, 2019, Higgins was aboard a private Gulfstream jet flying from Van Nuys Airport in Los Angeles to Midway International Airport in Chicago. Law enforcement officers were waiting for the jet to arrive, having been notified by federal agents, while the flight was en route, that they suspected there were guns and drugs on the plane. Law enforcement officials later revealed they found three handguns and 70 lb (32 kg) of marijuana on the aircraft. They also said several members of Higgins' management team aboard the flight told them that Higgins had taken "several unknown pills", including allegedly swallowing multiple Percocet pills to hide them while police were on board the plane searching the luggage.</li>
+	</ul>
+	<p class="quote">"Nobody on this earth is perfect. Everybody has their flaws; everybody has their dark secrets and vices."</p>
+</div>
+
+</body>
+
+<div class="arrow">
+	<img src="https://i.imgur.com/xfAay5y.png" class="point">
+</div>
+
+<footer>
+	<div class="links">
+		<a href="https://en.wikipedia.org/wiki/Juice_Wrld" target="_blank">More Info</a>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
